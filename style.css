@@ -301,6 +301,7 @@ nav a{
     border-radius: 5px;
     font-size: 0.75rem;
     margin-right: 5px;
+<<<<<<< HEAD
 } 
 
 
@@ -329,3 +330,6 @@ nav a{
     flex-direction: column;
     gap: 20px
 }
+=======
+}
+>>>>>>> c2ac677bd9acd6e3faccf20b513e75e6d5ee0171
