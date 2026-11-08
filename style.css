@@ -301,4 +301,31 @@ nav a{
     border-radius: 5px;
     font-size: 0.75rem;
     margin-right: 5px;
-}   
+} 
+
+
+@media screen and (max-width:768) {
+    .main-container{
+    height: auto;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    }
+
+    
+}
+@media screen and (max-width: 480px) {
+ .main-container{
+    height: 800px;
+    width: 500px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+    
+}
+
+.project, .skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
